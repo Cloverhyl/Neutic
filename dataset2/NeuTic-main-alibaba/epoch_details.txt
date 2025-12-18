@@ -1,0 +1,540 @@
+(py10) E:\code\dataset2\NeuTic-main-alibaba>python train.py
+============================================================
+项目名称：云平台上的加密 TLS 流量分类
+姓名：黄宇琳
+当前系统时间：2025-12-07 00:15:28
+============================================================
+开始 NeuTic 模型训练与验证
+使用设备: cpu
+============================================================
+============================================================
+开始 NeuTic 模型训练与验证
+使用设备: cpu
+============================================================
+数据加载完成，总共 3649 个样本。
+划分结果: 训练集 2554, 验证集 547, 测试集 548
+标签映射: {np.str_('elm'): 0, np.str_('tpp'): 1, np.str_('yk'): 2}
+
+模型总参数量: 52,091,907
+
+开始训练...
+
+
+============================================================
+============================================================
+详细分类报告:
+详细分类报告:
+              precision    recall  f1-score   support
+
+              precision    recall  f1-score   support
+
+         elm     0.9128    0.9780    0.9443       182
+         tpp     0.9153    0.5806    0.7105       186
+          yk     0.6880    0.8994    0.7797       179
+
+    accuracy                         0.8172       547
+   macro avg     0.8387    0.8194    0.8115       547
+         elm     0.9128    0.9780    0.9443       182
+         tpp     0.9153    0.5806    0.7105       186
+          yk     0.6880    0.8994    0.7797       179
+
+    accuracy                         0.8172       547
+   macro avg     0.8387    0.8194    0.8115       547
+         tpp     0.9153    0.5806    0.7105       186
+          yk     0.6880    0.8994    0.7797       179
+
+    accuracy                         0.8172       547
+   macro avg     0.8387    0.8194    0.8115       547
+          yk     0.6880    0.8994    0.7797       179
+
+    accuracy                         0.8172       547
+   macro avg     0.8387    0.8194    0.8115       547
+    accuracy                         0.8172       547
+   macro avg     0.8387    0.8194    0.8115       547
+weighted avg     0.8401    0.8172    0.8109       547
+weighted avg     0.8401    0.8172    0.8109       547
+
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [01/30] | Train Loss: 0.8598, Train Acc: 70.16% | Val Loss: 0.5625, Val Acc: 81.72%
+   -> 保存新的最佳模型，验证准确率: 81.72%
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [01/30] | Train Loss: 0.8598, Train Acc: 70.16% | Val Loss: 0.5625, Val Acc: 81.72%
+   -> 保存新的最佳模型，验证准确率: 81.72%
+
+Epoch [01/30] | Train Loss: 0.8598, Train Acc: 70.16% | Val Loss: 0.5625, Val Acc: 81.72%
+   -> 保存新的最佳模型，验证准确率: 81.72%
+
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9319    0.9780    0.9544       182
+         tpp     0.9545    0.3387    0.5000       186
+          yk     0.5759    0.9330    0.7122       179
+
+    accuracy                         0.7459       547
+   macro avg     0.8208    0.7499    0.7222       547
+weighted avg     0.8231    0.7459    0.7206       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [02/30] | Train Loss: 0.4138, Train Acc: 83.40% | Val Loss: 0.5729, Val Acc: 74.59%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9663    0.9451    0.9556       182
+         tpp     0.8249    0.7849    0.8044       186
+          yk     0.7552    0.8101    0.7817       179
+
+    accuracy                         0.8464       547
+   macro avg     0.8488    0.8467    0.8472       547
+weighted avg     0.8491    0.8464    0.8473       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [03/30] | Train Loss: 0.3412, Train Acc: 86.49% | Val Loss: 0.3665, Val Acc: 84.64%
+   -> 保存新的最佳模型，验证准确率: 84.64%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9565    0.9670    0.9617       182
+         tpp     0.9252    0.7312    0.8168       186
+          yk     0.7407    0.8939    0.8101       179
+
+    accuracy                         0.8629       547
+   macro avg     0.8741    0.8640    0.8629       547
+weighted avg     0.8752    0.8629    0.8628       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [04/30] | Train Loss: 0.2522, Train Acc: 89.90% | Val Loss: 0.3620, Val Acc: 86.29%
+   -> 保存新的最佳模型，验证准确率: 86.29%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9330    0.9945    0.9628       182
+         tpp     0.6705    0.9301    0.7793       186
+          yk     0.8842    0.4693    0.6131       179
+
+    accuracy                         0.8007       547
+   macro avg     0.8292    0.7980    0.7851       547
+weighted avg     0.8278    0.8007    0.7860       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [05/30] | Train Loss: 0.2321, Train Acc: 90.88% | Val Loss: 0.4235, Val Acc: 80.07%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9721    0.9560    0.9640       182
+         tpp     0.7424    0.9140    0.8193       186
+          yk     0.8561    0.6648    0.7484       179
+
+    accuracy                         0.8464       547
+   macro avg     0.8568    0.8449    0.8439       547
+weighted avg     0.8560    0.8464    0.8442       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [06/30] | Train Loss: 0.2044, Train Acc: 92.25% | Val Loss: 0.4301, Val Acc: 84.64%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9779    0.9725    0.9752       182
+         tpp     0.8265    0.8710    0.8482       186
+          yk     0.8412    0.7989    0.8195       179
+
+    accuracy                         0.8812       547
+   macro avg     0.8819    0.8808    0.8810       547
+weighted avg     0.8817    0.8812    0.8811       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [07/30] | Train Loss: 0.1711, Train Acc: 93.19% | Val Loss: 0.3023, Val Acc: 88.12%
+   -> 保存新的最佳模型，验证准确率: 88.12%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9624    0.9835    0.9728       182
+         tpp     0.8100    0.8710    0.8394       186
+          yk     0.8385    0.7542    0.7941       179
+
+    accuracy                         0.8702       547
+   macro avg     0.8703    0.8696    0.8688       547
+weighted avg     0.8700    0.8702    0.8690       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [08/30] | Train Loss: 0.1582, Train Acc: 94.40% | Val Loss: 0.3404, Val Acc: 87.02%
+
+============================================================
+详细分类报告:
+详细分类报告:
+              precision    recall  f1-score   support
+              precision    recall  f1-score   support
+
+         elm     0.9227    0.9835    0.9521       182
+         elm     0.9227    0.9835    0.9521       182
+         tpp     0.9545    0.6774    0.7925       186
+          yk     0.7421    0.9162    0.8200       179
+
+    accuracy                         0.8574       547
+   macro avg     0.8731    0.8590    0.8549       547
+weighted avg     0.8744    0.8574    0.8546       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [09/30] | Train Loss: 0.1211, Train Acc: 95.93% | Val Loss: 0.4300, Val Acc: 85.74%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9519    0.9780    0.9648       182
+         tpp     0.9268    0.8172    0.8686       186
+          yk     0.8163    0.8939    0.8533       179
+
+    accuracy                         0.8958       547
+   macro avg     0.8983    0.8964    0.8956       547
+weighted avg     0.8990    0.8958    0.8956       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [10/30] | Train Loss: 0.1627, Train Acc: 94.64% | Val Loss: 0.3877, Val Acc: 89.58%
+   -> 保存新的最佳模型，验证准确率: 89.58%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9624    0.9835    0.9728       182
+         tpp     0.8757    0.8333    0.8540       186
+          yk     0.8261    0.8492    0.8375       179
+
+    accuracy                         0.8885       547
+   macro avg     0.8881    0.8887    0.8881       547
+weighted avg     0.8883    0.8885    0.8881       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [11/30] | Train Loss: 0.1350, Train Acc: 94.83% | Val Loss: 0.3702, Val Acc: 88.85%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9620    0.9725    0.9672       182
+         tpp     0.7953    0.9194    0.8529       186
+          yk     0.8784    0.7263    0.7951       179
+
+    accuracy                         0.8739       547
+   macro avg     0.8786    0.8727    0.8717       547
+weighted avg     0.8780    0.8739    0.8720       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [12/30] | Train Loss: 0.1103, Train Acc: 95.85% | Val Loss: 0.3476, Val Acc: 87.39%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9825    0.9231    0.9518       182
+         tpp     0.9198    0.8011    0.8563       186
+          yk     0.7757    0.9274    0.8448       179
+
+    accuracy                         0.8830       547
+   macro avg     0.8926    0.8838    0.8843       547
+weighted avg     0.8935    0.8830    0.8843       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [13/30] | Train Loss: 0.0877, Train Acc: 97.10% | Val Loss: 0.5625, Val Acc: 88.30%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9889    0.9780    0.9834       182
+         tpp     0.8548    0.8548    0.8548       186
+          yk     0.8343    0.8436    0.8389       179
+
+    accuracy                         0.8921       547
+   macro avg     0.8927    0.8921    0.8924       547
+weighted avg     0.8927    0.8921    0.8924       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [14/30] | Train Loss: 0.1039, Train Acc: 96.36% | Val Loss: 0.4157, Val Acc: 89.21%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9570    0.9780    0.9674       182
+         tpp     0.8030    0.8548    0.8281       186
+          yk     0.8098    0.7374    0.7719       179
+
+    accuracy                         0.8574       547
+   macro avg     0.8566    0.8568    0.8558       547
+weighted avg     0.8565    0.8574    0.8561       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [15/30] | Train Loss: 0.0856, Train Acc: 96.83% | Val Loss: 0.4326, Val Acc: 85.74%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9574    0.9890    0.9730       182
+         tpp     0.9212    0.8172    0.8661       186
+          yk     0.8144    0.8827    0.8472       179
+
+    accuracy                         0.8958       547
+   macro avg     0.8977    0.8963    0.8954       547
+weighted avg     0.8983    0.8958    0.8955       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [16/30] | Train Loss: 0.0967, Train Acc: 96.63% | Val Loss: 0.4371, Val Acc: 89.58%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9943    0.9560    0.9748       182
+         tpp     0.8663    0.8710    0.8686       186
+          yk     0.8324    0.8603    0.8462       179
+
+    accuracy                         0.8958       547
+   macro avg     0.8977    0.8958    0.8965       547
+weighted avg     0.8978    0.8958    0.8966       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [17/30] | Train Loss: 0.0836, Train Acc: 97.14% | Val Loss: 0.3080, Val Acc: 89.58%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9831    0.9560    0.9694       182
+         tpp     0.7203    0.9140    0.8057       186
+          yk     0.8358    0.6257    0.7157       179
+
+    accuracy                         0.8336       547
+   macro avg     0.8464    0.8319    0.8302       547
+weighted avg     0.8455    0.8336    0.8307       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [18/30] | Train Loss: 0.0728, Train Acc: 97.61% | Val Loss: 0.7416, Val Acc: 83.36%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9282    0.9945    0.9602       182
+         tpp     0.9455    0.8387    0.8889       186
+          yk     0.8449    0.8827    0.8634       179
+
+    accuracy                         0.9049       547
+   macro avg     0.9062    0.9053    0.9042       547
+weighted avg     0.9068    0.9049    0.9043       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [19/30] | Train Loss: 0.1010, Train Acc: 96.24% | Val Loss: 0.4928, Val Acc: 90.49%
+   -> 保存新的最佳模型，验证准确率: 90.49%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9577    0.9945    0.9757       182
+         tpp     0.9162    0.8226    0.8669       186
+          yk     0.8325    0.8883    0.8595       179
+
+    accuracy                         0.9013       547
+   macro avg     0.9021    0.9018    0.9007       547
+weighted avg     0.9026    0.9013    0.9007       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [20/30] | Train Loss: 0.0550, Train Acc: 98.24% | Val Loss: 0.4266, Val Acc: 90.13%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9476    0.9945    0.9705       182
+         tpp     0.9329    0.8226    0.8743       186
+          yk     0.8333    0.8939    0.8625       179
+
+    accuracy                         0.9031       547
+   macro avg     0.9046    0.9036    0.9024       547
+weighted avg     0.9052    0.9031    0.9025       547
+
+E:\code\dataset2\NeuTic-main-alibaba\train.py:147: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  plt.figure(figsize=(6,5))
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [21/30] | Train Loss: 0.0558, Train Acc: 97.81% | Val Loss: 0.6004, Val Acc: 90.31%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9728    0.9835    0.9781       182
+         tpp     0.8377    0.8602    0.8488       186
+          yk     0.8430    0.8101    0.8262       179
+
+    accuracy                         0.8848       547
+   macro avg     0.8845    0.8846    0.8844       547
+weighted avg     0.8844    0.8848    0.8844       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [22/30] | Train Loss: 0.0715, Train Acc: 97.57% | Val Loss: 0.3524, Val Acc: 88.48%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9780    0.9780    0.9780       182
+         tpp     0.9157    0.8172    0.8636       186
+          yk     0.8141    0.9050    0.8571       179
+
+    accuracy                         0.8995       547
+   macro avg     0.9026    0.9001    0.8996       547
+weighted avg     0.9032    0.8995    0.8996       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [23/30] | Train Loss: 0.1453, Train Acc: 94.99% | Val Loss: 0.3258, Val Acc: 89.95%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9574    0.9890    0.9730       182
+         tpp     0.9470    0.7688    0.8487       186
+          yk     0.7885    0.9162    0.8475       179
+
+    accuracy                         0.8903       547
+   macro avg     0.8976    0.8913    0.8897       547
+weighted avg     0.8986    0.8903    0.8897       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [24/30] | Train Loss: 0.0797, Train Acc: 97.49% | Val Loss: 0.6756, Val Acc: 89.03%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9622    0.9780    0.9700       182
+         tpp     0.9012    0.8333    0.8659       186
+          yk     0.8158    0.8659    0.8401       179
+
+    accuracy                         0.8921       547
+   macro avg     0.8930    0.8924    0.8920       547
+weighted avg     0.8935    0.8921    0.8921       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [25/30] | Train Loss: 0.0564, Train Acc: 98.04% | Val Loss: 0.5129, Val Acc: 89.21%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9831    0.9615    0.9722       182
+         tpp     0.8039    0.8817    0.8410       186
+          yk     0.8606    0.7933    0.8256       179
+
+    accuracy                         0.8793       547
+   macro avg     0.8826    0.8789    0.8796       547
+weighted avg     0.8821    0.8793    0.8796       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [26/30] | Train Loss: 0.0563, Train Acc: 98.24% | Val Loss: 0.5875, Val Acc: 87.93%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9676    0.9835    0.9755       182
+         tpp     0.8689    0.8548    0.8618       186
+          yk     0.8380    0.8380    0.8380       179
+
+    accuracy                         0.8921       547
+   macro avg     0.8915    0.8921    0.8918       547
+weighted avg     0.8916    0.8921    0.8918       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [27/30] | Train Loss: 0.0593, Train Acc: 97.89% | Val Loss: 0.5662, Val Acc: 89.21%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9774    0.9505    0.9638       182
+         tpp     0.9589    0.7527    0.8434       186
+          yk     0.7589    0.9497    0.8437       179
+
+    accuracy                         0.8830       547
+   macro avg     0.8984    0.8843    0.8836       547
+weighted avg     0.8996    0.8830    0.8835       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [28/30] | Train Loss: 0.0431, Train Acc: 98.32% | Val Loss: 0.4649, Val Acc: 88.30%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9727    0.9780    0.9753       182
+         tpp     0.8626    0.8441    0.8533       186
+          yk     0.8352    0.8492    0.8421       179
+
+    accuracy                         0.8903       547
+   macro avg     0.8902    0.8904    0.8902       547
+weighted avg     0.8903    0.8903    0.8902       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [29/30] | Train Loss: 0.0593, Train Acc: 98.04% | Val Loss: 0.3654, Val Acc: 89.03%
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9834    0.9780    0.9807       182
+         tpp     0.8100    0.8710    0.8394       186
+          yk     0.8494    0.7877    0.8174       179
+
+    accuracy                         0.8793       547
+   macro avg     0.8809    0.8789    0.8792       547
+weighted avg     0.8806    0.8793    0.8792       547
+
+混淆矩阵已保存为 'confusion_matrix.png'
+Epoch [30/30] | Train Loss: 0.1066, Train Acc: 96.87% | Val Loss: 0.4772, Val Acc: 87.93%
+
+============================================================
+在测试集上进行最终评估...
+
+============================================================
+详细分类报告:
+              precision    recall  f1-score   support
+
+         elm     0.9053    1.0000    0.9503       153
+         tpp     0.8659    0.8115    0.8378       191
+          yk     0.8400    0.8235    0.8317       204
+
+    accuracy                         0.8686       548
+   macro avg     0.8704    0.8783    0.8733       548
+weighted avg     0.8673    0.8686    0.8669       548
+
+混淆矩阵已保存为 'confusion_matrix.png'
+
+测试集结果 -> 损失: 0.5555, 准确率: 86.86%
+
+============================================================
+【复现成功与否的关键判断】
+ 基础学习能力：测试准确率应显著高于随机猜测 (33.33%)。
+   结果: 86.86% ✅
+
+所有结果已保存。
