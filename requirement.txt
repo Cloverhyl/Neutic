@@ -1,0 +1,14 @@
+# 创建虚拟环境（Python 3.8 或 3.9）
+python -m venv venv
+
+# 激活虚拟环境
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# 升级pip
+pip install --upgrade pip
+
+# 安装依赖包
+pip install numpy pandas scipy matplotlib scikit-learn scapy torch tqdm
